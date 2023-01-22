@@ -48,6 +48,9 @@
             <li class="nav-item">
               <a class="nav-link active" href="{{ route('contact') }}">Contact</a>
             </li>
+            <li class="nav-item">
+              <a class="btn btn-secondary text-white ms-5" href="{{route('login')}}">Login</a>
+            </li>
           </ul>
         </div>
       </div>
