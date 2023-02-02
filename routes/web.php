@@ -43,8 +43,5 @@ Route::group(['middleware' => 'is_admin', 'prefix' => 'admin', 'as' => 'admin.']
     Route::delete('pesan,{pesan}', [PesanController::class, 'destroy'])->name('pesan.destroy');
 });
 
-
-
-
 //Berikut adalah route yang mengatur login (login yang digunakan berupa login yang menggunakan laravel UI bootstrap sumber : https://www.ostife.com/cara-membuat-halaman-login-dan-register-pada-laravel-9/)
 Auth::routes(['register' => false]);
